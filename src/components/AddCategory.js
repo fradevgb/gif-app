@@ -19,7 +19,12 @@ const AddCategory = ({ setCategories }) => {
     <>
       <form onSubmit={handleSubmit}>
         <label htmlFor="">Search</label>
-        <input type="text" value={inputValue} onChange={handleInputChange} />
+        <input
+          type="text"
+          value={inputValue}
+          onChange={handleInputChange}
+          placeholder="Enter the name"
+        />
       </form>
     </>
   );
